@@ -1,5 +1,5 @@
 function gerar() {
-    var season = Math.floor(Math.random() * 6) + 1;
+    var season = Math.floor(Math.random() * 7) + 1;
     
     switch(season) {
         case (season = 1):
@@ -20,6 +20,8 @@ function gerar() {
         case (season = 6):
                 var episode = Math.floor(Math.random() * 23) + 1;
                 break
+        case (season = 7):
+            var episode = Math.floor(Math.random() * 22) + 1;
     } 
 
     var blockEpisode = window.document.querySelector("div#episodeBlock");
@@ -571,6 +573,95 @@ function gerar() {
         var epTitle = "6x23 – Into the Blue";
         photo.setAttribute("src", "images/s06/s06e23.jpeg");
         var epDesc = "Lilly Rush nearly drowns after being run off the road on a Philadelphia bridge. She goes back to work as usual, invested in the case at hand, but notices that there's something very strange going on with her own mind.";
+     } // Temporada 7 //////////////////////////////////////////////////////////////
+     else if (season == 7 && episode == 1) {
+       var epTitle = "7x01 - The Crossing";
+       photo.setAttribute("src", "images/s07/s07e01.jpeg");
+       var epDesc = "The Cold Case team investigates the murder of a young girl who died in the Sixties while taking a boat trip. Meanwhile Rush becomes obsessed with getting revenge on the man who nearly killed her.";
+    } else if (season == 7 && episode == 2) {
+        var epTitle = "7x02 – Hood Rats";
+        photo.setAttribute("src", "images/s07/s07e02.jpeg");
+        var epDesc = "The 1995 murder of an unidentified runaway is reopened when his brother presents proof of his identity.";
+     } else if (season == 7 && episode == 3) {
+        var epTitle = "7x03 – Jurisprudence";
+        photo.setAttribute("src", "images/s07/s07e03.jpeg");
+        var epDesc = "The team reopens the 2004 case of a teen who was wrongly sent to a juvenile detention center where he was killed and before Valens could make good on his promise to get him released.";
+     } else if (season == 7 && episode == 4) {
+        var epTitle = "7x04 – Soul";
+        photo.setAttribute("src", "images/s07/s07e04.jpeg");
+        var epDesc = "A young jazz musician, whose father is a strict clergyman, was beaten to death with a bottle in 1970. The investigation is reopened at the request of the son of the victim. Meanwhile, an unexpected person comes to meet Rush.";
+     } else if (season == 7 && episode == 5) {
+        var epTitle = "7x05 – WASP";
+        photo.setAttribute("src", "images/s07/s07e05.jpeg");
+        var epDesc = "The death of a WWII female pilot is investigated, and it turns out that at the time, many of the male pilots had a sexist attitude about girls flying planes.";
+     } else if (season == 7 && episode == 6) {
+        var epTitle = "7x06 – Dead Heat";
+        photo.setAttribute("src", "images/s07/s07e06.jpeg");
+        var epDesc = "The 1986 murder of a jockey is investigated after his body is discovered in a mass grave for horses. The victim disappeared shortly after after losing a race that he had planned to be his finale before retiring.";
+     } else if (season == 7 && episode == 7) {
+        var epTitle = "7x07 – Read Between the Lines";
+        photo.setAttribute("src", "images/s07/s07e07.jpeg");
+        var epDesc = "The team reopens the 1990's case of a teenage girl murdered and stuffed in a zebra-print rug. But was it the rough gang she hung out with who hurt her, or was it somebody who went unnoticed?";
+     } else if (season == 7 && episode == 8) {
+        var epTitle = "7x08 – Chinatown";
+        photo.setAttribute("src", "images/s07/s07e08.jpeg");
+        var epDesc = "The team reopens a 1980's case that hits very close to Detective Stillman, getting caught up in the corrupt underworld of Chinatown's 'Dragon Boys', a group active in organized crime and trafficking";
+     } else if (season == 7 && episode == 9) {
+        var epTitle = "7x09 – Forensics";
+        photo.setAttribute("src", "images/s07/s07e09.jpeg");
+        var epDesc = "The team re investigates the death of a young man who was an outstanding debater and was being offered a college scholarship who supposedly killed himself. When someone tells them that he feared for his life.";
+     } else if (season == 7 && episode == 10) {
+        var epTitle = "7x10 – Iced";
+        photo.setAttribute("src", "images/s07/s07e10.jpeg");
+        var epDesc = "The team reopens the 1980 case of an ice hockey player, Tommy Flanagan, who was murdered on his team's Philly ice rink the night the U.S. hockey team defeated the Soviet Union team in the Olympic games in Lake Placid.";
+     } else if (season == 7 && episode == 11) {
+        var epTitle = "7x11 – The Good Soldier";
+        photo.setAttribute("src", "images/s07/s07e11.jpeg");
+        var epDesc = "A Green Beret gets the team to re-open the murder case of his recruiter when he provides an alibi for the man believed to have been killed for stolen jewelry.";
+     } else if (season == 7 && episode == 12) {
+        var epTitle = "7x12 – The Runaway Bunny";
+        photo.setAttribute("src", "images/s07/s07e12.jpeg");
+        var epDesc = "Suspects abound in the 1974 murder case of a private investigator who, the team discovers, uncovered unfavorable things for - and about - his last few clients.";
+     } else if (season == 7 && episode == 13) {
+        var epTitle = "7x13 – Bombers";
+        photo.setAttribute("src", "images/s07/s07e13.jpeg");
+        var epDesc = "While attempting to solve the murder of a talented young graffiti artist, three detectives from the homicide unit cope with their own troubled lives on the side, trying to keep things together.";
+     } else if (season == 7 && episode == 14) {
+        var epTitle = "7x14 – Metamorphosis";
+        photo.setAttribute("src", "images/s07/s07e14.jpeg");
+        var epDesc = "The team looks into the death of a teenage circus aerialist; Rush faces possible charges in another case.";
+     } else if (season == 7 && episode == 15) {
+        var epTitle = "7x15 – Two Weddings";
+        photo.setAttribute("src", "images/s07/s07e15.jpeg");
+        var epDesc = "Louie, a colleague and friend of the Cold Case team, is getting married to a woman whose husband died mysteriously right before the wedding. Was it a coincidence, or was it murder? Will Louie be next?";
+     } else if (season == 7 && episode == 16) {
+        var epTitle = "7x16 – One Fall";
+        photo.setAttribute("src", "images/s07/s07e16.jpeg");
+        var epDesc = "The team reopens the case of a dock worker who was moonlighting as an indy-circuit wrestler until he was shot dead in 1986, and Valens secretly looks into a lead on the man who mugged and raped his mother.";
+     } else if (season == 7 && episode == 17) {
+        var epTitle = "7x17 – Flashover";
+        photo.setAttribute("src", "images/s07/s07e17.jpeg");
+        var epDesc = "Detective Vera struggles with the guilt of wrongfully charging a father with arson and murder, succumbing to reckless behavior and a deep depression. Will the Cold Case team be able to help their colleague?";
+     } else if (season == 7 && episode == 18) {
+        var epTitle = "7x18 – The Last Drive-In";
+        photo.setAttribute("src", "images/s07/s07e18.jpeg");
+        var epDesc = "When ballistics tie a recent murder case of Rush's to a serial killer who was seemingly inactive for 27 years, a tough FBI agent with ties to Stillman shows up to enlist the team's aid in finding the killer who has eluded her for 30 years, on Part One of a two-part episode.";
+     } else if (season == 7 && episode == 19) {
+        var epTitle = "7x19 – Bullet";
+        photo.setAttribute("src", "images/s07/s07e19.jpeg");
+        var epDesc = "After determining a serial killer's identity, the team works with the FBI to apprehend him and protect potential targets";
+     } else if (season == 7 && episode == 20) {
+        var epTitle = "7x20 – Free Love";
+        photo.setAttribute("src", "images/s07/s07e20.jpeg");
+        var epDesc = "Rush and FBI agent Ryan Cavanaugh discover their attraction for one another while investigating the 1969 murder of a GI at Woodstock, and Vera helps his married ex-girlfriend, Megan, after sentimental jewelry is stolen from her home.";
+     } else if (season == 7 && episode == 21) {
+        var epTitle = "7x21 – Almost Paradise";
+        photo.setAttribute("src", "images/s07/s07e21.jpeg");
+        var epDesc = "Pictures developed from a disposable camera leads the team to reopen the investigation into the death of a prom queen, who was the victim of a hit-and-run accident. Lily's troubled sister reappears, but Lily is reluctant to assist her.";
+     } else if (season == 7 && episode == 22) {
+        var epTitle = "7x22 – Shattered";
+        photo.setAttribute("src", "images/s07/s07e22.jpeg");
+        var epDesc = "Valens partners with Rush to locate her sister, who was abducted from her drug-littered motel room, and Jeffries tries to bring justice and closure to a long-suffering mother whose daughter's murder case has remained unsolved for 17 years.";
      } 
 
     // Resultado
