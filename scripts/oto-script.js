@@ -1,5 +1,5 @@
 function gerar() {
-    var season = Math.floor(Math.random() * 4) + 1;
+    var season = Math.floor(Math.random() * 6) + 1;
     
     switch(season) {
         case (season = 1):
@@ -14,6 +14,12 @@ function gerar() {
         case (season = 4):
             var episode = Math.floor(Math.random() * 24) + 1;
             break
+        case (season = 5):
+            var episode = Math.floor(Math.random() * 18) + 1;
+            break
+        case (season = 6):
+                var episode = Math.floor(Math.random() * 23) + 1;
+                break
     } 
 
     var blockEpisode = window.document.querySelector("div#episodeBlock");
@@ -399,7 +405,173 @@ function gerar() {
         var epTitle = "4x24 – Stalker";
         photo.setAttribute("src", "images/s04/s04e01.jpeg");
         var epDesc = "When a teenage girl wakes up from a coma, the team reopens the murder of her family. Soon, they find out that she was being stalked by a man calling himself 'Romeo'.";
-    }
+    }  // Temporada 5 //////////////////////////////////////////////////////////////
+     else if (season == 5 && episode == 1) {
+       var epTitle = "5x01 – Thrill Kill";
+       photo.setAttribute("src", "images/s05/s05e01.jpeg");
+       var epDesc = "In 1994, three little boys are murdered in a swimming pool, and everyone blames the two grunge kids from the low-class part of town. Years later, Rush reopens the case after one of the convicted kids takes his own life.";
+    } else if (season == 5 && episode == 2) {
+        var epTitle = "5x02 – That Woman";
+        photo.setAttribute("src", "images/s05/s05e02.jpeg");
+        var epDesc = "The team reopens the 1998 homicide of a 15-year-old high school girl, with a reputation for being promiscuous, after a piece of her clothing is found.";
+     } else if (season == 5 && episode == 3) {
+        var epTitle = "5x03 – Running Around";
+        photo.setAttribute("src", "images/s05/s05e03.jpeg");
+        var epDesc = "The detectives reopen the 2006 case of a murdered Jane Doe when relatives and friends identify her as an Amish teenager who went missing in Philadelphia during her Rumspringa.";
+     } else if (season == 5 && episode == 4) {
+        var epTitle = "5x04 – Devil Music";
+        photo.setAttribute("src", "images/s05/s05e04.jpeg");
+        var epDesc = "The team investigate the case of Bingo Zohar, a young rock n'roll singer who was murdered in 1953, when the rock is rising.";
+     } else if (season == 5 && episode == 5) {
+        var epTitle = "5x05 – Thick as Thieves";
+        photo.setAttribute("src", "images/s05/s05e05.jpeg");
+        var epDesc = "The Detectives try and solve the case of a woman who died after being in a coma for 18 years.";
+     } else if (season == 5 && episode == 6) {
+        var epTitle = "5x06 – Wunderkind";
+        photo.setAttribute("src", "images/s05/s05e06.jpeg");
+        var epDesc = "The case of a young, inner city math genius killed in 2002 is re-opened after his half-brother releases some information about the slain victim.";
+     } else if (season == 5 && episode == 7) {
+        var epTitle = "5x07 – World's End";
+        photo.setAttribute("src", "images/s05/s05e07.jpeg");
+        var epDesc = "The discovery of human remains in the bottom of a well leads to the reinvestigation of the case of a housewife who went missing during Orson Welles' radio broadcast of 'War of the Worlds'.";
+     } else if (season == 5 && episode == 8) {
+        var epTitle = "5x08 – It Takes a Village";
+        photo.setAttribute("src", "images/s05/s05e08.jpeg");
+        var epDesc = "The discovery of a dead body in a storage facility reveals the presence of a serial killer who has killed four African-American boys over the course of a few years.";
+     } else if (season == 5 && episode == 9) {
+        var epTitle = "5x09 – Boy Crazy";
+        photo.setAttribute("src", "images/s05/s05e09.jpeg");
+        var epDesc = "The 1960's case is reopened of a young girl named Samantha ('Sam') who was relentlessly teased and even groped at one point for dressing like a boy, after which she was found murdered and left in a river.";
+     } else if (season == 5 && episode == 10) {
+        var epTitle = "5x10 – Justice";
+        photo.setAttribute("src", "images/s05/s05e10.jpeg");
+        var epDesc = "Lilly's team re-investigates the 1982 murder of a man who was killed after being accused of date rape by several female college students.";
+     } else if (season == 5 && episode == 11) {
+        var epTitle = "5x11 – Family 8108";
+        photo.setAttribute("src", "images/s05/s05e11.jpeg");
+        var epDesc = "The 1940's case of a Japanese American killed after detainment in a camp is reopened. Meanwhile the Cold Case team fears their beloved boss, John Stillman, will retire and leave them.";
+     } else if (season == 5 && episode == 12) {
+        var epTitle = "5x12 – Sabotage";
+        photo.setAttribute("src", "images/s05/s05e12.jpeg");
+        var epDesc = "The Cold Case team investigates a serial bomber who seems to be targeting people in no particular pattern, but then they discover the bomber may be killing out of grief and loss.";
+     } else if (season == 5 && episode == 13) {
+        var epTitle = "5x13 – Spiders";
+        photo.setAttribute("src", "images/s05/s05e13.jpeg");
+        var epDesc = "A young woman, who is abused by her father, begins to date a young man who turns out to be a neo-Nazi.";
+     } else if (season == 5 && episode == 14) {
+        var epTitle = "5x14 – Andy in C Minor";
+        photo.setAttribute("src", "images/s05/s05e14.jpeg");
+        var epDesc = "New evidence indicates that a teenager who disappeared in 2006 from a residential high school for deaf students had been murdered.";
+     } else if (season == 5 && episode == 15) {
+        var epTitle = "5x15 – The Road";
+        photo.setAttribute("src", "images/s05/s05e15.jpeg");
+        var epDesc = "A woman was abducted in 2007 from her engagement party and is presumed murdered.";
+     } else if (season == 5 && episode == 16) {
+        var epTitle = "5x16 – Bad Reputation";
+        photo.setAttribute("src", "images/s05/s05e16.jpeg");
+        var epDesc = "An ex-convict is murdered in 1997 after trying to visit his young son, and his file is reopened by the Cold Case team.";
+     } else if (season == 5 && episode == 17) {
+        var epTitle = "5x17 – Slipping";
+        photo.setAttribute("src", "images/s05/s05e17.jpeg");
+        var epDesc = "In 1962, a woman's death is ruled a suicide. Her granddaughter asks the team to investigate her suicide after she provides them with newer evidence she hopes will prove that her grandmother's suicide was actually a murder.";
+     } else if (season == 5 && episode == 18) {
+        var epTitle = "5x18 – Ghost of My Child";
+        photo.setAttribute("src", "images/s05/s05e18.jpeg");
+        var epDesc = "A fire which killed the child of a junkie is reopened when she claims to have seen him alive in the park.";
+     }  // Temporada 6 //////////////////////////////////////////////////////////////
+     else if (season == 6 && episode == 1) {
+       var epTitle = "6x01 - Glory Days";
+       photo.setAttribute("src", "images/s06/s06e01.jpeg");
+       var epDesc = "The team reopens a the 1973 case of a murdered football player after new evidence surfaces that shows that he may have been killed later than originally thought.";
+    } else if (season == 6 && episode == 2) {
+        var epTitle = "6x02 – True Calling";
+        photo.setAttribute("src", "images/s06/s06e02.jpeg");
+        var epDesc = "Rush and the team investigate an inner-city school teacher's death, originally believed to be a carjacking gone bad, after a former student finds her keys.";
+     } else if (season == 6 && episode == 3) {
+        var epTitle = "6x03 – Wednesday's Women";
+        photo.setAttribute("src", "images/s06/s06e03.jpeg");
+        var epDesc = "Rush and the team investigate the 1964 murder case of a young woman working with Freedom schools";
+     } else if (season == 6 && episode == 4) {
+        var epTitle = "6x04 – Roller Girl";
+        photo.setAttribute("src", "images/s06/s06e04.jpeg");
+        var epDesc = "The Cold Case team investigates a 1979 case where a young girl who loved roller skating at the local disco roller rink was found dead.";
+     } else if (season == 6 && episode == 5) {
+        var epTitle = "6x05 – Shore Leave";
+        photo.setAttribute("src", "images/s06/s06e05.jpeg");
+        var epDesc = "The Cold Case team reopens the 1950's case of a Marine who supposedly went AWOL after discovering his remains stuffed in an oil drum half a century later.";
+     } else if (season == 6 && episode == 6) {
+        var epTitle = "6x06 – The Dealer";
+        photo.setAttribute("src", "images/s06/s06e06.jpeg");
+        var epDesc = "The Cold Case team investigates some bones found in a car that was about to be crushed. They discover that they're the remains of a single mom who worked at a crooked 1980's car dealership, much to the chagrin of her now grown-up daughter.";
+     } else if (season == 6 && episode == 7) {
+        var epTitle = "6x07 – One Small Step";
+        photo.setAttribute("src", "images/s06/s06e07.jpeg");
+        var epDesc = "The team reopens the case of a murdered 12-year-old boy when a new clue is given to the cop who worked on the case.";
+     } else if (season == 6 && episode == 8) {
+        var epTitle = "6x08 – Triple Threat";
+        photo.setAttribute("src", "images/s06/s06e08.jpeg");
+        var epDesc = "The team reopen a 1989 murder case of a young Russian opera singer.";
+     } else if (season == 6 && episode == 9) {
+        var epTitle = "6x09 – Pin Up Girl";
+        photo.setAttribute("src", "images/s06/s06e09.jpg");
+        var epDesc = "A fan of a 50s pin up girl comes forward with a new lead in the shooting death of the girl. A photo revealing the killer may not have been a random break in as believed. Could it have been her photographer, manager, best friend or stalker?";
+     } else if (season == 6 && episode == 10) {
+        var epTitle = "6x10 – Street Money";
+        photo.setAttribute("src", "images/s06/s06e10.jpeg");
+        var epDesc = "The team investigates the 2005 murder of a young politician.";
+     } else if (season == 6 && episode == 11) {
+        var epTitle = "6x11 – Wings";
+        photo.setAttribute("src", "images/s06/s06e11.jpeg");
+        var epDesc = "The bone of a woman is discovered in the incinerator of an old hotel. She is a missing stewardess, thought to have eloped to Spain with a boyfriend in 1960.";
+     } else if (season == 6 && episode == 12) {
+        var epTitle = "6x12 – Lotto Fever";
+        photo.setAttribute("src", "images/s06/s06e12.jpeg");
+        var epDesc = "The team resume investigation of a murder case: In 2007, an automobile mechanic won big money on the lotto. But, after six months, he had spent it all and was shot dead.";
+     } else if (season == 6 && episode == 13) {
+        var epTitle = "6x13 – Breaking News";
+        photo.setAttribute("src", "images/s06/s06e13.jpeg");
+        var epDesc = "Lilly and the Cold Case detectives look into the murder of 1980's news reporter Jane Everett, who was strangled after learning the truth of a plastics factory's asbestos pollution.";
+     } else if (season == 6 && episode == 14) {
+        var epTitle = "6x14 – The Brush Man";
+        photo.setAttribute("src", "images/s06/s06e14.jpeg");
+        var epDesc = "A kind and friendly brush salesman's case is reopened from the 1960's after his remains are discovered in a pond. The Cold Case team learn that he was trying to battle his own troubled past.";
+     } else if (season == 6 && episode == 15) {
+        var epTitle = "6x15 – Witness Protection";
+        photo.setAttribute("src", "images/s06/s06e15.jpeg");
+        var epDesc = "A grieving woman seeks help from the Cold Case team regarding the death of her husband. He and the family were living under secret aliases since he had agreed to testify against a mob boss.";
+     } else if (season == 6 && episode == 16) {
+        var epTitle = "6x16 – Jackals";
+        photo.setAttribute("src", "images/s06/s06e16.jpeg");
+        var epDesc = "The 1970's case of a murdered girl is reopened, and the Cold Case team learn that she was an honor student who fell in with a dangerous crowd of bikers and ruffians.";
+     } else if (season == 6 && episode == 17) {
+        var epTitle = "6x17 – Officer Down";
+        photo.setAttribute("src", "images/s06/s06e17.jpeg");
+        var epDesc = "When one of their own is shot and taken to an intensive care unit, the Cold Case team try to figure out who shot him and an elderly convenience store owner. Vera feels guilty for the incident since he was there at the time.";
+     } else if (season == 6 && episode == 18) {
+        var epTitle = "6x18 – Mind Games";
+        photo.setAttribute("src", "images/s06/s06e18.jpeg");
+        var epDesc = "The case of a murdered psychiatrist is reopened, and the Cold Case team learn she was trying to find other means of therapy for her patients besides just pills and drugs.";
+     } else if (season == 6 && episode == 19) {
+        var epTitle = "6x19 – Libertyville";
+        photo.setAttribute("src", "images/s06/s06e19.jpeg");
+        var epDesc = "A real-estate developer's body is discovered, and it turns out he was the creator of a planned suburban community who was killed in the late 1950's.";
+     } else if (season == 6 && episode == 20) {
+        var epTitle = "6x20 – Stealing Home";
+        photo.setAttribute("src", "images/s06/s06e20.jpeg");
+        var epDesc = "The case of a Cuban baseball player is reopened and the Cold Case team look into his arrival to American soil, his affair with another woman and his neglected family in an attempt to solve the case.";
+     } else if (season == 6 && episode == 21) {
+        var epTitle = "6x21 – November 22";
+        photo.setAttribute("src", "images/s06/s06e21.jpeg");
+        var epDesc = "A pool hustler is killed on the same day as President Kennedy in 1963.";
+     } else if (season == 6 && episode == 22) {
+        var epTitle = "6x22 – The Long Blue Line";
+        photo.setAttribute("src", "images/s06/s06e22.jpeg");
+        var epDesc = "A young female cadet's murder is reopened and the Cold Case team learn that she was assaulted, harassed and teased while in the military academy before her untimely death. Meanwhile Lilly Rush faces a serious threat.";
+     } else if (season == 6 && episode == 23) {
+        var epTitle = "6x23 – Into the Blue";
+        photo.setAttribute("src", "images/s06/s06e23.jpeg");
+        var epDesc = "Lilly Rush nearly drowns after being run off the road on a Philadelphia bridge. She goes back to work as usual, invested in the case at hand, but notices that there's something very strange going on with her own mind.";
+     } 
 
     // Resultado
     title.innerHTML = epTitle;
