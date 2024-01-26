@@ -24,12 +24,11 @@ function gerar() {
             var episode = Math.floor(Math.random() * 22) + 1;
     } 
 
+    var sectionBlock = window.document.querySelector("section#block");
     var blockEpisode = window.document.querySelector("div#episodeBlock");
     var title = window.document.querySelector("h1#title");
     var photo = window.document.querySelector("img#photo");
     var description = window.document.querySelector("p#description");
-    
-    blockEpisode.style.display = "block";
 
     // Temporada 1
     if (season == 1 && episode == 1) {
@@ -665,6 +664,9 @@ function gerar() {
      } 
 
     // Resultado
+    sectionBlock.style.display = "block";
+    blockEpisode.style.display = "block";
+
     title.innerHTML = epTitle;
     window.document.photo;
     description.innerHTML = epDesc;
