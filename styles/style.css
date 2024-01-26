@@ -52,6 +52,7 @@ div.episode {
     background-color: #fff;
     border-radius: 4px;
     border-bottom: 3px solid #ccc;
+    height: 430px;
 }
 
 div.episode h1 {
