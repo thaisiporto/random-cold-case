@@ -2,25 +2,25 @@ function gerar() {
     var season = Math.floor(Math.random() * 7) + 1;
     
     switch(season) {
-        case (season = 1):
+        case 1:
             var episode = Math.floor(Math.random() * 23) + 1;
             break
-        case (season = 2):
+        case 2:
             var episode = Math.floor(Math.random() * 23) + 1;
             break
-        case (season = 3):
+        case 3:
             var episode = Math.floor(Math.random() * 23) + 1;
             break
-        case (season = 4):
+        case 4:
             var episode = Math.floor(Math.random() * 24) + 1;
             break
-        case (season = 5):
+        case 5:
             var episode = Math.floor(Math.random() * 18) + 1;
             break
-        case (season = 6):
+        case 6:
                 var episode = Math.floor(Math.random() * 23) + 1;
                 break
-        case (season = 7):
+        case 7:
             var episode = Math.floor(Math.random() * 22) + 1;
     } 
 
